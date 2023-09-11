@@ -1,0 +1,29 @@
+FIRST:
+Download project libraries(packages).
+4 libraries:
+  path => Responsible for making operations on paths.
+  path_provider => It is used to provide paths for the saving data, for each work environment(ios/android) separately.
+  sqflite => It's DBMS for building small DB systems.
+  provider => State management.
+
+SECOND:
+Making UI screens (screens dir.).
+
+THIRD:
+Create database dir. for handling database:
+Create::
+1- db_controller file => Create DB controller for handling DB DDL.(create DB & it's table CRUD  just!(without data in table)).
+2- GO TO FORTH...
+3- db_operations file => Create abstract class to organize and force operations methods.
+4- contact_db_controller => For handling DB DML. (control data DB table CRUD).
+   On it, we use the table model to make operations on table.
+
+FORTH:
+Create models dir. because the table in DB is correspond to model.
+ Create Contact class which containing table properties and operations transformations.
+
+FIFTH:
+
+SIXTH:
+
+SEVENTH:
